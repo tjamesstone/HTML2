@@ -1,0 +1,140 @@
+body {
+    background: white;
+    height: 100%;
+    width: 100%;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: flex;
+    
+    margin: 0px;
+
+    
+
+    
+
+}
+.contatainerone {
+    background: #FFC0CB;
+    height: 100%;
+    width: 90%;
+}
+
+
+
+
+
+.bluebar {
+    background: blue;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    margin: 0px;
+    position: relative;
+    
+   
+
+}
+.topbarfollownow {
+text-decoration: underline;
+font-size: small;
+margin-left: 10px;
+}
+
+.topbartext {
+    justify-content: center;
+
+}
+
+.x{
+    justify-content: flex-end; 
+    margin-left: 0px;
+}
+
+
+
+
+header {
+    background: lightblue;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    
+	
+
+}
+.invision {
+    font-size: small;
+}
+.designbetter {
+    font-size: x-large;
+}
+
+.menu {
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	font-size: small;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.blackbox {
+    height: 2rem;
+    width: 2rem;
+    background: black;
+    color: white;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-size: x-large;
+    align-items: center;
+    font-family: cursive;
+}
+
+button {
+    background: #FF1493;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-right: 28px;
+
+
+
+}
+
+.design {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.books {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.podcast {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.workshops {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.conversations {
+    margin-right: 20px;
+    margin-left: 20px;
+}
