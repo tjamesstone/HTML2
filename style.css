@@ -1,22 +1,36 @@
-body {
+*{
+    margin: 0px;
+}
+
+
+
+.container {
+    background: #ffe6f2;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    
+    margin: 0px;
+}
+
+.containerone {
     background: white;
-    height: 100%;
-    width: 100%;
+    height: 97%;
+    width: 97%;
+    
+    
+    
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: flex;
+    justify-content: center;
     
     margin: 0px;
-
-    
-
-    
-
-}
-.contatainerone {
-    background: #FFC0CB;
-    height: 100%;
-    width: 90%;
 }
 
 
@@ -26,20 +40,25 @@ body {
 .bluebar {
     background: blue;
     width: 100vw;
-    height: 7vh;
+    height: 9vh;
     display: flex;
-	flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     margin: 0px;
-    position: relative;
+    position: sticky;
+    top: 0px;
     
    
 
 }
+.topLeft {
+    align-items: center;
+    position: fixed;
+    left: 50px;
+}
+
 .topbarfollownow {
 text-decoration: underline;
 font-size: small;
@@ -52,15 +71,18 @@ margin-left: 10px;
 }
 
 .x{
-    justify-content: flex-end; 
-    margin-left: 0px;
+    display: flex;
+    justify-self: flex-end;
+    
 }
 
 
 
 
 header {
-    background: lightblue;
+   
+    width: 100%;
+    height: 7rem;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -71,12 +93,7 @@ header {
 	
 
 }
-.invision {
-    font-size: small;
-}
-.designbetter {
-    font-size: x-large;
-}
+
 
 .menu {
     
@@ -86,8 +103,7 @@ header {
 	justify-content: space-between;
 	font-size: small;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    
 }
 
 .blackbox {
@@ -102,16 +118,20 @@ header {
 	font-size: x-large;
     align-items: center;
     font-family: cursive;
+    position: fixed;
+    right: 45px;
 }
 
-button {
+.buttonone {
     background: #FF1493;
     height: 3rem;
     width: 7rem;
     border-radius: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    margin-right: 28px;
+    margin-right: 35px;
+    position: fixed;
+    right: 100px;
 
 
 
@@ -138,3 +158,71 @@ button {
     margin-right: 20px;
     margin-left: 20px;
 }
+
+.pinkbox {
+    height: 600px;
+    width: 1200px;
+    background: #ffe6f2;
+    margin-left: 5rem;
+}
+
+.pinksmall {
+    
+    padding-top: 7rem;
+    padding-left: 10rem;
+    height: 400px;
+    width: 800px;
+}
+.learn {
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+.designlibrary {
+    letter-spacing: 1px;
+}
+.buttontwo {
+    margin-top: 3rem;
+    height: 4rem;
+    width: 13rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: #FF1493;
+    border-radius: 2rem;
+    font-size: large;
+}
+
+.bestpractices {
+    margin-top: 230px;
+    margin-left: 175px;
+}
+.thelibrary {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+.socialmedia {
+    position: fixed;
+    display: flex-end;
+    bottom: 0;
+    right: 5px;
+}
+
+.animationhandbook {
+    margin-left: 60px;
+    margin-top: 230px;
+}
+.enterprise {
+    margin-left: 200px;
+    margin-top: 230px;
+}
+.question {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    background: lightblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
